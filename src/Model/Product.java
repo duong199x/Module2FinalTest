@@ -47,12 +47,12 @@ public class Product {
         this.price = price;
     }
 
-    public String getProductType() {
+    public String getDescription() {
         return description;
     }
 
-    public void setProductType(String productType) {
-        this.description = productType;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     @Override
@@ -62,7 +62,7 @@ public class Product {
                 ", name='" + name + '\'' +
                 ", quantity=" + quantity +
                 ", price=" + price +
-                ", productType='" + description + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
 }

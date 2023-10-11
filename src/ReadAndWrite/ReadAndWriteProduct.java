@@ -18,7 +18,7 @@ public class ReadAndWriteProduct {
             String line = "";
             for (Product product : list
             ) {
-                line += product.getId() + "," + product.getName() + "," + product.getQuantity() + "," + product.getPrice() + "," + product.getProductType() + "\n";
+                line += product.getId() + "," + product.getName() + "," + product.getQuantity() + "," + product.getPrice() + "," + product.getDescription() + "\n";
             }
             bufferedWriter.write(line);
             bufferedWriter.close();
